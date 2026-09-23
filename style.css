@@ -198,3 +198,26 @@ header {
 .accessories {
   background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('img/foto5.png');
 }
+
+.main-part{
+background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('foto1.jpg');  
+background-size:cover;
+background-position: center;  
+ min-height: 80vh; 
+  width: 100%;
+display: grid;
+  place-items: center; /* Centrado perfecto horizontal y vertical */
+  
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.main-grid{
+    display: grid;
+  grid-template-rows: auto auto auto auto; /* Una fila para cada elemento */
+  gap: 15px; /* Distancia uniforme entre textos que no se rompe con zoom */
+  max-width: 800px;
+  width: 100%;
+
+}
